@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f5f0fa;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.receita {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid #e0d4f0;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #6a3fa0;
+  text-align: center;
+  margin: 0 0 24px 0;
+  font-family: "Croissant One", serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #6a3fa0;
+  margin: 32px 0 16px 0;
+}
+
+img {
+  display: block;
+  width: 70%;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #e0d4f0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.info-titulo {
+  font-weight: 600;
+  color: #6a3fa0;
+}
+
+.ingredientes {
+  background-color: #efe6f9;
+  border-left: 4px solid #6a3fa0;
+  border-radius: 8px;
+  padding: 8px 24px 16px 24px;
+  margin-top: 32px;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
